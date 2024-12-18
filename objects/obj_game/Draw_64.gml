@@ -1,8 +1,10 @@
 // Points
 var points_text_scale = 0.15;
 draw_set_font(fnt_pixelated_elegance);
-draw_text_transformed(10, 80, highscore, points_text_scale, points_text_scale, 0);
-draw_text_transformed(10, 125, points, points_text_scale, points_text_scale, 0);
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
+draw_text_transformed(500, 10, global.Highscore, points_text_scale, points_text_scale, 0);
+draw_text_transformed(500, 50, points, points_text_scale, points_text_scale, 0);
 
 // Bullets
 var bullets = draw_bullets;
@@ -10,7 +12,7 @@ if (bullets > 0) {
 	for (var i = 0; i < bullets; i++) {
 		var spacing = 10 + 15*i;
 		var height = 50;
-		var y0 = 990;
+		var y0 = 130;
 		var width = 6;
 		draw_line_width(spacing, y0, spacing, y0 - height, width);
 	}

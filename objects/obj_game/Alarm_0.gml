@@ -1,3 +1,5 @@
-if (points > highscore) { highscore = points; }
+/// @description Game Over logic
+ 
+if (points > global.Highscore) { global.Highscore = points; }
 points = 0;
-room_restart();
+room_goto(rm_mainMenu);
