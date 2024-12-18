@@ -36,7 +36,6 @@
   "name":"Space Rocks",
   "resources":[
     {"id":{"name":"fnt_pixelated_elegance","path":"fonts/fnt_pixelated_elegance/fnt_pixelated_elegance.yy",},},
-    {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
