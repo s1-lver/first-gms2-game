@@ -1,5 +1,5 @@
 // Points
-var points_text_scale = 0.15;
+var points_text_scale = 1;
 draw_set_font(fnt_pixelated_elegance);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);

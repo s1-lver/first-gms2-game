@@ -7,6 +7,8 @@ if (player_lives == 1) {
 	obj_game.alarm[0] = 120;
 } else {
 	effect_create_above(ef_firework, x, y, 1, c_white);
+	other.direction = direction;
+	
 	x = room_width / 2;
 	y = room_height / 2;
 	motion_set(0, 0);
