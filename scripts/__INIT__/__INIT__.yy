@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"TextWave",
+  "%Name":"__INIT__",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"TextWave",
+  "name":"__INIT__",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Space Rocks",
+    "path":"Space Rocks.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

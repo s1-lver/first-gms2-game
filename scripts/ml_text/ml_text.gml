@@ -1,20 +1,4 @@
-#region Function Definiton
-/// @function						wave(from, to, duration, offset, time);
-/// @param {real} from				Value to start wave from
-/// @param {real} to				Value to end wave at
-/// @param {real} duration			Duration of the wave
-/// @param {real} offset			Offset of the wave
-/// @param {real} time				Time to use (used for offsetting)
-#endregion
-
-function wave(from, to, duration, offset, time = 0){
-	 if (time == 0) time = current_time;
-	 var a4 = (to - from) * 0.5;
-	 
-	 return from + a4 + sin((((time * 0.001) + duration * offset) / duration) * (pi * 2)) * a4;
-}
-
-#region Function Definition
+#region draw_text_wave
 /// @function						draw_text_wave(x, y, wave_height, wave_length, text)
 /// @param {real} x					The x-coordinate
 /// @param {real} y					The y-coordinate
@@ -22,7 +6,6 @@ function wave(from, to, duration, offset, time = 0){
 /// @param {real} wave_length		How long one wave cycle is
 /// @param {string} text			The text to draw
 #endregion
-
 function draw_text_wave(xx, yy, _waveH, _waveL, text) {
 	var _offset = 0;
 	var _stringProcessed = "";
