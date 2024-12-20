@@ -1,8 +1,19 @@
-// Initialise global variables
-global.Highscore = 0;
+#region GLOBAL VARIABLES
 
-// Load saved data
-ini_open("save.ini");
-global.Highscore = ini_read_real("Variables", "highscore", 0);
+global._data = 
+{
+	highscore : 0
+};
+global._save_file = "data.save";
 
-ini_close();
+#endregion
+
+#region MACROS
+
+#macro data global._data
+#macro save_file global._save_file
+
+#endregion
+
+load_save_data(save_file);
+

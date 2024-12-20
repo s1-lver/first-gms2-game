@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ml_save_data",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ml_save_data",
+  "parent":{
+    "name":"Modules",
+    "path":"folders/Modules.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -6,7 +6,7 @@ var _down = keyboard_check(vk_down);
 var _space = keyboard_check_pressed(vk_space);
 
 // Movement logic	
-move_wrap(true, true, 0);
+move_wrap(true, true, 32);
 
 image_angle += (turn_speed * -_right) + (turn_speed * _left);
 motion_add(image_angle, motion_speed * _up + motion_speed * -_down);

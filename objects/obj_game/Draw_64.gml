@@ -3,7 +3,7 @@ var points_text_scale = 1;
 draw_set_font(fnt_pixelated_elegance);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
-draw_text_transformed(500, 10, global.Highscore, points_text_scale, points_text_scale, 0);
+draw_text_transformed(500, 10, data.highscore, points_text_scale, points_text_scale, 0);
 draw_text_transformed(500, 50, points, points_text_scale, points_text_scale, 0);
 
 // Bullets
