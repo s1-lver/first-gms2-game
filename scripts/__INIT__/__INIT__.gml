@@ -28,4 +28,3 @@ enum Powerups {
 #endregion
 
 load_save_data(save_file);
-

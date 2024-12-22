@@ -1,5 +1,5 @@
-var up = keyboard_check_pressed(vk_up);
-var down = keyboard_check_pressed(vk_down);
+var up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
+var down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 var space = keyboard_check_pressed(vk_space);
 
 // Change Selection
