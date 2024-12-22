@@ -1,6 +1,4 @@
 // VARIABLES
-timer = 0;
-
 player = {
 	motion_speed : 0.1,
 	max_speed : 20,
@@ -15,7 +13,7 @@ player = {
 	max_lives : 5,
 
 	iframes : false,
-	iframe_time : 240,
+	iframe_time : 240, // in frames
 	
 	powerup : Powerups.None,
 	powerup_time : 600, // in frames

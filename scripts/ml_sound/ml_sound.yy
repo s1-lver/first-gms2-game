@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ml_sound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ml_sound",
+  "parent":{
+    "name":"Modules",
+    "path":"folders/Modules.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

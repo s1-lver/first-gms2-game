@@ -1,0 +1,1 @@
+set_song_playing(mu_title_screen, true);

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"so_player_collision",
+  "audioGroupId":{
+    "name":"sounds",
+    "path":"audiogroups/sounds",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.287982,
+  "name":"so_player_collision",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"so_player_collision.wav",
+  "type":0,
+  "volume":0.5,
+}
