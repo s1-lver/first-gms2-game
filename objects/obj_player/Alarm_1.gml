@@ -1,3 +1,3 @@
 /// @description IFrame regen
 
-iframes = false;
+player.iframes = false;

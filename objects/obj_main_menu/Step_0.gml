@@ -4,18 +4,18 @@ var space = keyboard_check_pressed(vk_space);
 
 // Change Selection
 if (up) {
-	current_selection--;	
+	current_selection++;	
 }
 if (down) {
-	current_selection++;
+	current_selection--;
 }
 
 
 if (current_selection >= array_length(buttons)) {
-	current_selection = array_length(buttons) - 1;	
+	current_selection = 0;	
 }
 if (current_selection < 0) {
-	current_selection = 0;
+	current_selection = array_length(buttons) - 1;
 }
 
 for (var i = 0; i < array_length(buttons); i++) {

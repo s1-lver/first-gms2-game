@@ -1,3 +1,3 @@
 /// @description Bullet Regen
 
-bullets += 1;
+player.bullets += 1;
